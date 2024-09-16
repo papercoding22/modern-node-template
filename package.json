@@ -1,0 +1,12 @@
+{
+  "name": "modern-node-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:papercoding22/modern-node-template.git",
+  "author": "papercoding22 <john.ly997@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  }
+}
