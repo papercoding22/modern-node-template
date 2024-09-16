@@ -5,8 +5,13 @@
   "repository": "git@github.com:papercoding22/modern-node-template.git",
   "author": "papercoding22 <john.ly997@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "dev:debug": "tsx watch --inspect src/index.ts"
+  },
   "devDependencies": {
     "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
     "typescript": "^5.6.2"
   }
 }
