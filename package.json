@@ -5,7 +5,6 @@
   "repository": "git@github.com:papercoding22/modern-node-template.git",
   "author": "papercoding22 <john.ly997@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "rm -rf build && tsc",
     "start": "npm run build && node build/index.js",
@@ -17,6 +16,7 @@
     "prettier:fix": "prettier --write 'src/**/*.{js,ts}'",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "test": "vitest",
+    "test:run": "vitest run",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
