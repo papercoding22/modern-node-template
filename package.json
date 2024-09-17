@@ -12,6 +12,9 @@
     "dev": "tsx watch src/index.ts",
     "dev:debug": "tsx watch --inspect src/index.ts",
     "lint": "eslint 'src/**/*.{js,ts}'",
+    "lint:fix": "eslint 'src/**/*.{js,ts}' --fix",
+    "prettier": "prettier --check 'src/**/*.{js,ts}'",
+    "prettier:fix": "prettier --write 'src/**/*.{js,ts}'",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "test": "vitest",
     "coverage": "vitest run --coverage"
